@@ -112,7 +112,7 @@ const CourseDetails = () => {
     </Link>
   </div>
 </div>
-    
+
 
 
 
@@ -120,7 +120,7 @@ const CourseDetails = () => {
 <div className="parent wbg py-[100px]">
       <div className="container">
         <h2 className="h2 heading text-center mb-10" data-aos="fade-up">
-            Course Modules: What You'll Learn
+            Course Modules: What You&apos;ll Learn
           </h2>
           <p className="text-center max-w-2xl mx-auto mb-10 text-[var(--text)] text-sm" data-aos="fade-up">
             Our curriculum is designed to make Economics clear and engaging, covering all essential topics found in IB and CBSE.
@@ -191,8 +191,8 @@ const CourseDetails = () => {
         <div className="container text-center text-white" data-aos="fade-up" data-aos-delay={200}>
           <h2 className="h2 heading mb-6">Ready to Begin Your Learning Journey?</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg !text-white/70">
-            Whether you're aiming for top band scores in IELTS or looking to master business and finance,
-            I’m here to help you unlock your full potential. Let’s connect and make your goals a reality.
+            Whether you&apos;re aiming for top band scores in IELTS or looking to master business and finance,
+            I&apos;m here to help you unlock your full potential. Let&apos;s connect and make your goals a reality.
           </p>
           <Link href="/contact" className="btn bg-white text-black hover:bg-gray-200 transition-all">
             Enroll Now

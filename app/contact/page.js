@@ -1,17 +1,10 @@
-'use client';
+
 
 import Link from 'next/link';
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const page = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-    });
-  }, []);
+ 
 
   return (
     <div className="parent bg min-h-screen py-[100px]">

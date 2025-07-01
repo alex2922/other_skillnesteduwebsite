@@ -54,7 +54,7 @@ const CourseDetails = () => {
       {/* 3. Teaching Style */}
       <section className="bg-[#f9f9f9] py-16 px-6">
         <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold mb-4">🌀 How You'll Learn</h2>
+          <h2 className="text-3xl font-bold mb-4">🌀 How You&apos;ll Learn</h2>
           <p className="text-lg text-gray-700">
             We teach using Kolb’s Experiential Learning Cycle — helping you go beyond memorization into actual mastery. Expect active tasks, real-world cases, reflection prompts, and frequent feedback.
           </p>

@@ -208,8 +208,8 @@ const about = () => {
         <div className="container text-center text-white" data-aos="fade-up" data-aos-delay={200}>
           <h2 className="h2 heading mb-6">Ready to Begin Your Learning Journey?</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg !text-white/70">
-            Whether you're aiming for top band scores in IELTS or looking to master business and finance,
-            I’m here to help you unlock your full potential. Let’s connect and make your goals a reality.
+            Whether you&apos;re aiming for top band scores in IELTS or looking to master business and finance,
+            I&apos;m here to help you unlock your full potential. Let&apos;s connect and make your goals a reality.
           </p>
           <Link href="/contact" className="btn bg-white text-black hover:bg-gray-200 transition-all">
             Get in Touch

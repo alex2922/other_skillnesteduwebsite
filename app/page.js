@@ -375,10 +375,10 @@ export default function Home() {
 
       <div className="parent bgdark py-[100px] home ">
         <div className="container text-center text-white" data-aos="fade-up" data-aos-delay={200}>
-          <h2 className="h2 heading mb-6">Next-gen learning starts now , don’t miss the wave!
+          <h2 className="h2 heading mb-6">Next-gen learning starts now , don&apos;t miss the wave!
 </h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg !text-white/70">
-            SkillNestEdu isn’t just another online course—it's a new era of learning built on insight, innovation, and intention. Be part of the future of smart, student-first education.
+            SkillNestEdu isn&apos;t just another online course—it&apos;s a new era of learning built on insight, innovation, and intention. Be part of the future of smart, student-first education.
           </p>
           <Link href="/contact" className="btn bg-white text-black hover:bg-gray-200 transition-all">
             Enroll Now

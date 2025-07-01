@@ -16,6 +16,10 @@
   font-family: "Inter", sans-serif;
 }
 
+.wbg{
+  background: rgba(233, 233, 233, 0.471);
+}
+
 .heading {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 800;
@@ -154,6 +158,9 @@ p {
     background-clip: text;
     color: transparent; */
 }
+.bgg{
+   background: linear-gradient(-45deg, var(--accent1), var(--accent2))
+}
 
 .about-section {
   .about-section-container {
@@ -189,8 +196,8 @@ p {
     }
   }
 }
-
-.card {
+.course-home{
+  .card {
   background: rgba(255, 255, 255, 0.212);
   padding: 16px;
   border-radius: 12px;
@@ -202,8 +209,23 @@ p {
   justify-content: center;
   gap: 16px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.26);
-  outline: 1px solid rgba(255, 255, 255, 0.658);
+  height: 410px;
 }
+
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+  border-radius: 12px;
+  margin: 0px 0px;
+
+  
+}
+}
+
 
 /* about page */
 
@@ -298,10 +320,11 @@ p {
 
 .swiper {
   width: 100%;
-  height: 300px;
+  min-height: 300px;
 }
 
-.swiper-slide {
+.about-page-swiper{
+  .swiper-slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -332,4 +355,40 @@ p {
     border-radius: 12px;
     outline: 1px solid rgba(255, 255, 255, 0.658);
   }
+}
+}
+
+
+/* cources page */
+
+
+
+.allcources{
+  .card {
+  background: rgba(255, 255, 255, 0.212);
+  padding: 16px;
+  border-radius: 12px;
+  min-width: 300px;
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.26);
+  outline: 1px solid rgba(255, 255, 255, 0.658);
+  height: 410px;
+}
+}
+
+
+
+input , textarea {
+  outline: none ;
+  border: none ;
+  border-radius: 0px ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308) ;
+  background: transparent ;
+  padding: 10px 0px ;
+  color: var(--text) 
 }

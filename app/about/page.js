@@ -153,7 +153,7 @@ const about = () => {
         </div>
       </div>
 
-      <div className="parent">
+      <div className="parent about-page-swiper">
         <div className="container py-[100px]">
 
           <h2 className="h2 heading mt-[70px]" data-aos="fade-up" data-aos-delay={200}>

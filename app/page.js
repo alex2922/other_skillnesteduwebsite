@@ -7,12 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Navigation } from "swiper/modules";
-import Courses from './courses/page';
-
+import Courses from "./courses/page";
 
 export default function Home() {
-
-
   const Data = [
     {
       name: "IB Economics (SL/HL)",
@@ -64,7 +61,6 @@ export default function Home() {
       image: "/images/courses/ty-finance.jpg",
     },
   ];
-
 
   const testimonials = [
     {
@@ -139,9 +135,6 @@ export default function Home() {
     },
   ];
 
-
-
-
   return (
     <>
       <div className="parent bg py-[100px] h-[600px]">
@@ -152,7 +145,9 @@ export default function Home() {
           </h1>
 
           <p data-aos="fade-up" data-aos-delay={100}>
-            Empowering students through facilitation, not lectures. Learn using our signature IMPACT method, built on 22+ years of international teaching excellence.
+            Empowering students through facilitation, not lectures. Learn using
+            our signature IMPACT method, built on 22+ years of international
+            teaching excellence.
           </p>
 
           <Link
@@ -175,11 +170,7 @@ export default function Home() {
             <div className="si" data-aos="fade-up" data-aos-delay={200}>
               Educator. Mentor. Visionary.
             </div>
-            <p
-              className=" text-left"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
+            <p className=" text-left" data-aos="fade-up" data-aos-delay={400}>
               With two decades of experience teaching across India and the UK,
               Anamika is a gold medalist (B.Com), MBA topper, and British
               Council-certified IELTS trainer. She’s helped 5,000+ students find
@@ -193,7 +184,7 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay={600}
             >
-              Know More 
+              Know More
             </Link>
           </div>
           <div className="right fc" data-aos="fade-up" data-aos-delay={0}>
@@ -208,12 +199,13 @@ export default function Home() {
         </div>
       </div>
 
-
-
       <div className="parent bg h-[700px] course-home">
         <div className="container py-[100px] flex flex-col gap-8 items-center justify-center">
-
-          <h2 className="h2 heading mt-[70px]" data-aos="fade-up" data-aos-delay={200}>
+          <h2
+            className="h2 heading mt-[70px]"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
             Our <span>Courses</span>
           </h2>
 
@@ -243,14 +235,26 @@ export default function Home() {
             navigation={true}
             modules={[Autoplay, Navigation]}
           >
-
             {Data.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="card" key={index} data-aos="fade-up" data-aos-delay={(index + 2) * 10}>
+                <div
+                  className="card"
+                  key={index}
+                  data-aos="fade-up"
+                  data-aos-delay={(index + 2) * 10}
+                >
                   <div className="flex flex-col gap-4">
-                    <Image className="rounded-md w-[100%]" src="/course.jpg" width={300} height={200} alt="logo" />
+                    <Image
+                      className="rounded-md w-[100%]"
+                      src="/course.jpg"
+                      width={300}
+                      height={200}
+                      alt="logo"
+                    />
 
-                    <h3 className="heading text-xl text-left w-full">{item.name}</h3>
+                    <h3 className="heading text-xl text-left w-full">
+                      {item.name}
+                    </h3>
                     <p className="text-sm opacity-80">
                       {item.description.slice(0, 130)}..
                     </p>
@@ -269,62 +273,98 @@ export default function Home() {
             ))}
           </Swiper>
 
-
-          <Link href={"/courses"} className="btn" data-aos="fade-up" data-aos-delay={200}>Explore All Courses</Link>
+          <Link
+            href={"/courses"}
+            className="btn"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
+            Explore All Courses
+          </Link>
         </div>
       </div>
+
+
+<div className="parent">
+  <div className="container">
+    <h2
+            className="h2 heading mt-[70px]"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
+            Why Choose <span>SkillNestEdu</span>
+          </h2>
+  </div>
+</div>
+
+
+
+
+
+
 
 
       <div className="parent wbg py-[100px]">
         <div className="container flex flex-col gap-4 items-center justify-center">
-
-          <h2 className="h2 heading mt-[70px]" data-aos="fade-up" data-aos-delay={200}>
-            Tools and  <span>Resources</span>
+          <h2
+            className="h2 heading mt-[70px]"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
+            Tools and <span>Resources</span>
           </h2>
 
           <div className="flex gap-4 w-full flex-wrap md:flex-nowrap">
-
-
-
-            <Link href={"https://chatgpt.com/g/g-6860fda44a80819189f9a4b39866d218-skillnest-student-buddy"} target="_blank" className="fc px-4 py-8 rounded-md bgg w-full "  data-aos="fade-up" data-aos-delay="400" >
-              <p className="tc !text-white">
-                👪 Talk to Our IB Parent Guide
-              </p>
-
+            <Link
+              href={
+                "https://chatgpt.com/g/g-6860fda44a80819189f9a4b39866d218-skillnest-student-buddy"
+              }
+              target="_blank"
+              className="fc px-4 py-8 rounded-md bgg w-full "
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <p className="tc !text-white">👪 Talk to Our IB Parent Guide</p>
             </Link>
 
-            <div href={"https://chatgpt.com/g/g-6860ff37eec88191987ef0b15f0b29e1-skillnest-parent-guide"} target="_blank" className="fc px-4 py-8 rounded-md bgg  w-full " data-aos="fade-up" data-aos-delay="600" >
+            <div
+              href={
+                "https://chatgpt.com/g/g-6860ff37eec88191987ef0b15f0b29e1-skillnest-parent-guide"
+              }
+              target="_blank"
+              className="fc px-4 py-8 rounded-md bgg  w-full "
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <p className="tc !text-white">
                 🧑‍🏫 Explore the SkillNest Faculty Companion
               </p>
-
             </div>
 
-            <div href={"https://chatgpt.com/g/g-685fea7692b481919bd1797179b66613-skillnestgpt-teacher-edition"} target="_blank" className="fc px-4 py-8 rounded-md bgg   w-full " data-aos="fade-up" data-aos-delay="800" >
+            <div
+              href={
+                "https://chatgpt.com/g/g-685fea7692b481919bd1797179b66613-skillnestgpt-teacher-edition"
+              }
+              target="_blank"
+              className="fc px-4 py-8 rounded-md bgg   w-full "
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
               <p className="tc !text-white">
                 💡 Chat with Our IB Student Study Buddy
               </p>
-
             </div>
-
-
-
           </div>
-
-
-
-
         </div>
       </div>
 
-
-
-
-
       <div className="parent bg py-[100px]">
         <div className="container flex flex-col gap-4 items-center justify-center">
-
-          <h2 className="h2 heading mt-[70px]" data-aos="fade-up" data-aos-delay={200}>
+          <h2
+            className="h2 heading mt-[70px]"
+            data-aos="fade-up"
+            data-aos-delay={200}
+          >
             <span>Real</span> Stories. <span>Real</span> Impact.
           </h2>
 
@@ -354,41 +394,45 @@ export default function Home() {
             navigation={true}
             modules={[Autoplay, Navigation]}
           >
-
             {testimonials.map((item, index) => (
               <SwiperSlide key={index}>
                 <div className="testimonial flex flex-col gap-4 items-center justify-center bg-white p-4 shadow-xl rounded-2xl">
                   <p className="tc"> {item.message}</p>
                   <div className="flex flex-col items-center justify-center gap-1">
                     <h3 className="heading">{item.name}</h3>
-                    <span className="text-xs opacity-80">{item.role} {item.location && "-"} {item.location} </span>
+                    <span className="text-xs opacity-80">
+                      {item.role} {item.location && "-"} {item.location}{" "}
+                    </span>
                   </div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-
-
         </div>
       </div>
 
-
       <div className="parent bgdark py-[100px] home ">
-        <div className="container text-center text-white" data-aos="fade-up" data-aos-delay={200}>
-          <h2 className="h2 heading mb-6">Next-gen learning starts now , don&apos;t miss the wave!
-</h2>
+        <div
+          className="container text-center text-white"
+          data-aos="fade-up"
+          data-aos-delay={200}
+        >
+          <h2 className="h2 heading mb-6">
+            Next-gen learning starts now , don&apos;t miss the wave!
+          </h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg !text-white/70">
-            SkillNestEdu isn&apos;t just another online course—it&apos;s a new era of learning built on insight, innovation, and intention. Be part of the future of smart, student-first education.
+            SkillNestEdu isn&apos;t just another online course—it&apos;s a new
+            era of learning built on insight, innovation, and intention. Be part
+            of the future of smart, student-first education.
           </p>
-          <Link href="/contact" className="btn bg-white text-black hover:bg-gray-200 transition-all">
+          <Link
+            href="/contact"
+            className="btn bg-white text-black hover:bg-gray-200 transition-all"
+          >
             Enroll Now
           </Link>
         </div>
       </div>
-
-
-
-
     </>
   );
 }

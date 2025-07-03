@@ -285,17 +285,6 @@ export default function Home() {
       </div>
 
 
-<div className="parent">
-  <div className="container">
-    <h2
-            className="h2 heading mt-[70px]"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
-            Why Choose <span>SkillNestEdu</span>
-          </h2>
-  </div>
-</div>
 
 
 

@@ -10,57 +10,128 @@ import { Autoplay, Navigation } from "swiper/modules";
 import Courses from "./courses/page";
 
 export default function Home() {
-  const Data = [
-    {
-      name: "IB Economics (SL/HL)",
-      link: "/courses/ib-economics",
-      description:
-        "Master key economic concepts across micro and macro with real-world applications using the IB framework.",
-      image: "/images/courses/ib-economics.jpg",
-    },
-    {
-      name: "CBSE Economics (Class 11/12)",
-      link: "/courses/cbse-economics",
-      description:
-        "From basic economic problems to national income and trade—CBSE Economics simplified for boards.",
-      image: "/images/courses/cbse-economics.jpg",
-    },
-    {
-      name: "IB Business Management (SL/HL)",
-      link: "/courses/ib-business",
-      description:
-        "A strategic approach to business concepts—marketing, operations, HR, finance, and ethics for future leaders.",
-      image: "/images/courses/ib-business.jpg",
-    },
-    {
-      name: "CBSE Business Studies (Class 11/12)",
-      link: "/courses/cbse-business",
-      description:
-        "Build a strong foundation in business principles—from organization types to marketing, finance, and HR.",
-      image: "/images/courses/cbse-business.jpg",
-    },
-    {
-      name: "B.Com & BAF First Year",
-      link: "/courses/fy-finance",
-      description:
-        "Start your commerce journey with core concepts in accounting, costing, economics, and communication.",
-      image: "/images/courses/fy-finance.jpg",
-    },
-    {
-      name: "B.Com & BAF Second Year",
-      link: "/courses/sy-finance",
-      description:
-        "Advance to financial management, ratio analysis, working capital and fintech innovations in India.",
-      image: "/images/courses/sy-finance.jpg",
-    },
-    {
-      name: "B.Com & BFM Final Year",
-      link: "/courses/ty-finance",
-      description:
-        "Master investment analysis, capital budgeting, derivatives, and portfolio management for real-world finance.",
-      image: "/images/courses/ty-finance.jpg",
-    },
-  ];
+ const Data = [
+  {
+    name: "IB Economics HL/SL – Full 2-Year Programme",
+    link: "/courses/ib-economics",
+    image: "/images/courses/ib-economics.jpg",
+    description:
+      "Master IB Economics with in-depth 2-year coverage of micro, macro, and global economics.",
+  },
+  {
+    name: "IB Business Management HL/SL – Full 2-Year Programme",
+    link: "/courses/ib-business",
+    image: "/images/courses/ib-business.jpg",
+    description:
+      "Explore core business strategies across HR, finance, ethics, and global enterprises.",
+  },
+  {
+    name: "IA, EE & TOK Support Workshops",
+    link: "/courses/ib-support",
+    image: "/images/courses/ib-support.jpg",
+    description:
+      "Focused workshops to ace Internal Assessments, Extended Essay & Theory of Knowledge.",
+  },
+  {
+    name: "IB 1-Year Booster Programme",
+    link: "/courses/ib-booster",
+    image: "/images/courses/ib-booster.jpg",
+    description:
+      "A fast-track program for students switching subjects or catching up on IB curriculum.",
+  },
+  {
+    name: "CBSE Class 11 & 12: Business Studies",
+    link: "/courses/cbse-business",
+    image: "/images/courses/cbse-business.jpg",
+    description:
+      "Comprehensive coverage of CBSE Business Studies with real-life case examples.",
+  },
+  {
+    name: "CBSE Class 11 & 12: Economics",
+    link: "/courses/cbse-economics",
+    image: "/images/courses/cbse-economics.jpg",
+    description:
+      "Strong fundamentals in macro & microeconomics tailored to board exam success.",
+  },
+  {
+    name: "ICSE Class 11 & 12: Business Studies",
+    link: "/courses/icse-business",
+    image: "/images/courses/icse-business.jpg",
+    description:
+      "Interactive and conceptual learning for ICSE board business studies.",
+  },
+  {
+    name: "ICSE Class 11 & 12: Economics",
+    link: "/courses/icse-economics",
+    image: "/images/courses/icse-economics.jpg",
+    description:
+      "ICSE Economics clarified with structured examples and simplified breakdowns.",
+  },
+  {
+    name: "CBSE/ICSE Board Exam Crash Courses (Nov–Feb)",
+    link: "/courses/board-crash-course",
+    image: "/images/courses/crash-course.jpg",
+    description:
+      "Board-focused revision batches for last-minute confidence and scoring edge.",
+  },
+  {
+    name: "Financial Management – B.Com/BBA",
+    link: "/courses/financial-management",
+    image: "/images/courses/sy-finance.jpg",
+    description:
+      "Excel in FM, capital budgeting, ratio analysis and working capital strategies.",
+  },
+  {
+    name: "Business Management – B.Com/BBA",
+    link: "/courses/bba-management",
+    image: "/images/courses/ty-finance.jpg",
+    description:
+      "Understand key management principles and their practical applications.",
+  },
+  {
+    name: "Accounting Principles & Applications",
+    link: "/courses/accounting",
+    image: "/images/courses/fy-finance.jpg",
+    description:
+      "Develop a foundation in accounting with real-world transactions & ledgers.",
+  },
+  {
+    name: "Business Economics – Undergraduate",
+    link: "/courses/ug-economics",
+    image: "/images/courses/ug-economics.jpg",
+    description:
+      "Micro and macroeconomic analysis adapted for undergraduate-level learners.",
+  },
+  {
+    name: "Research & Project Support (Final Year UG)",
+    link: "/courses/ug-projects",
+    image: "/images/courses/research-support.jpg",
+    description:
+      "Guidance for final year thesis, research writing and presentations.",
+  },
+  {
+    name: "IELTS Fast-Track Prep (Academic & General)",
+    link: "/courses/ielts",
+    image: "/images/courses/ielts.jpg",
+    description:
+      "Targeted training in listening, reading, writing & speaking for high band scores.",
+  },
+  {
+    name: "PTE Exam Accelerator Course",
+    link: "/courses/pte",
+    image: "/images/courses/pte.jpg",
+    description:
+      "AI-evaluated test simulations & strategies to crack the PTE exam fast.",
+  },
+  {
+    name: "SAT English (Reading + Writing)",
+    link: "/courses/sat-english",
+    image: "/images/courses/sat.jpg",
+    description:
+      "SAT verbal reasoning and grammar foundation for strong college readiness.",
+  },
+];
+
 
   const testimonials = [
     {
@@ -134,6 +205,10 @@ export default function Home() {
         "Anamika was a highly competent Accounting Assessor at Yorkshire Coast College. Her professionalism and learner-centric approach stood out. I’m confident SkillNestEdu will carry forward that same international standard of quality.",
     },
   ];
+
+
+
+  
 
   return (
     <>
@@ -261,11 +336,11 @@ export default function Home() {
                   </div>
 
                   <div className="flex gap-4">
-                    <Link href={item.link} className="btn">
+                    <Link href="/pricing" className="btn">
                       Know More
                     </Link>
-                    <Link href={item.link} className="btn2">
-                      Know More
+                    <Link href="/pricing" className="btn2">
+                      Buy Now
                     </Link>
                   </div>
                 </div>

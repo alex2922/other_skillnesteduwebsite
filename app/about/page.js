@@ -203,6 +203,43 @@ const about = () => {
         </div>
       </div>
 
+      <div className="parent bg py-[50px]">
+        <div className="container">
+          <h2 className="h2 tc heading my-[70px]" data-aos="fade-up" data-aos-delay={0}>
+            Meet our <span> Expert Faculty</span>
+          </h2>
+
+          <div className="flex gap-4 items-stretch flex-col lg:flex-row  ">
+            <div className="p-4 bg-black/10 border-white border-2 rounded-3xl flex gap-4 w-full lg:w-1/2 flex-col md:flex-row items-center" data-aos="fade-up" data-aos-delay={100} >
+              <Image src={"/djb.jpeg"} alt="about" height={150} width={150} className="rounded-xl object-cover" />
+
+              <div className="flex flex-col gap-2">
+                <h2 className="heading text-2xl text-center md:text-left">Dr. Jasline Bansal</h2>
+                <p className="text-xs text-center md:text-left"> Experienced Assistant Professor with a demonstrated 30 years of history of working in the education management industry. Skilled in Higher Education Administration, Educational Leadership, Soft Skills training to MBA,MCA, BBA & Hospitality students,Communication Skills teaching in the Engineering colleges, Spoken English skills teaching to the ICAI and SSB students, University Teaching at the Post Graduate level .Strong education professional with a B. Com, B.Ed, M.A (Economics) M. A(English) , PhD in English Literature.</p>
+              </div>
+            </div>
+
+             <div className="p-4 bg-black/10 border-white border-2 rounded-3xl flex gap-4  w-full lg:w-1/2 flex-col md:flex-row items-center " data-aos="fade-up" data-aos-delay={200}  >
+              <Image src={"/dk.jpg"} alt="about" height={150} width={150} className="rounded-xl object-cover" />
+
+              <div className="flex flex-col gap-2">
+                <h2 className="heading text-2xl text-center md:text-left ">Deepika khare</h2>
+                <p className="text-xs text-center md:text-left">Deepika Khare is a seasoned educator with over 20 years of experience as a PGT (Commerce), Assistant Professor, and Vice Principal. She holds strong expertise in Business Studies, Principles of Management, and Human Resource Management. Her passion for teaching and deep subject knowledge make her sessions insightful, engaging, and student-focused. She is dedicated to nurturing future professionals through clear concepts and practical understanding.</p>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+
+
+
 
       <div className="parent bgdark py-[100px]">
         <div className="container text-center text-white" data-aos="fade-up" data-aos-delay={200}>

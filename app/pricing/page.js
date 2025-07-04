@@ -9,44 +9,44 @@ import { Autoplay, Navigation } from "swiper/modules";
 import Link from "next/link";
 
 const Pricing = () => {
-  const ibPrograms = [
-    {
-      name: "IB Module 1",
-      duration: "11 months",
-      price: "₹49,000",
-      pointer: [
-        "Foundation concepts",
-        "Expert guidance",
-        "Study resources",
-        "Video lectures",
-        "Study resources",
-      ],
-    },
-    {
-      name: "IB Module 2",
-      duration: "12 months",
-      price: "₹56,000",
-      pointer: [
-        "Foundation concepts",
-        "Expert guidance",
-        "Study resources",
-        "Video lectures",
-        "Study resources",
-      ],
-    },
-    {
-      name: "IB Full Course",
-      duration: "2 years",
-      price: "₹95,000",
-      pointer: [
-        "Foundation concepts",
-        "Expert guidance",
-        "Study resources",
-        "Video lectures",
-        "Study resources",
-      ],
-    },
-  ];
+ const ibPrograms = [
+  {
+    name: "IB Module 1",
+    duration: "11 months",
+    price: "₹49,000",
+    pointer: [
+      "Exam-Focused Mastery",
+      "Complete IA & EE Support",
+      "Live Classes + Anytime Doubt Solving",
+      "Expert-Curated Resources",
+      "Parent-Student Progress Tracking"
+    ],
+  },
+  {
+    name: "IB Module 2",
+    duration: "12 months",
+    price: "₹56,000",
+    pointer: [
+      "Exam-Focused Mastery",
+      "Complete IA & EE Support",
+      "Live Classes + Anytime Doubt Solving",
+      "Expert-Curated Resources",
+      "Parent-Student Progress Tracking"
+    ],
+  },
+  {
+    name: "IB Full Course",
+    duration: "2 years",
+    price: "₹95,000",
+    pointer: [
+      "Exam-Focused Mastery",
+      "Complete IA & EE Support",
+      "Live Classes + Anytime Doubt Solving",
+      "Expert-Curated Resources",
+      "Parent-Student Progress Tracking"
+    ],
+  },
+];
 
 
   const courses = [
@@ -243,7 +243,7 @@ const Pricing = () => {
                     })}
                   </div>
 
-                  <button className="btn w-full">Enquire Now</button>
+                  <Link  href="/contact" className="btn  tc w-full">Enquire Now</Link>
                 </div>
               );
             })}
@@ -345,7 +345,7 @@ const Pricing = () => {
                     </div>
                   </div>
 
-                  <button className="btn w-full mt-6">Enquire Now</button>
+                  <Link href="/contact" className="btn tc w-full mt-6">Enquire Now</Link>
                 </div>
               </SwiperSlide>
             ))}

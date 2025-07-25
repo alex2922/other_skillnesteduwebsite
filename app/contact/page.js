@@ -38,12 +38,12 @@ const page = () => {
           <p className="tc">Or, you can email us at</p>
           <Link
             className="w-fit btn"
-            href="mailto:eduskillnest@gmail.com"
+            href="mailto:contact@skillnestedu.com"
             target="_blank"
             data-aos="fade-up"
             data-aos-delay="900"
           >
-            eduskillnest@gmail.com
+            contact@skillnestedu.com
           </Link>
         </div>
       </div>

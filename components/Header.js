@@ -22,10 +22,10 @@ const Header = () => {
     <>
       <div className="parent header" data-aos="fade-down">
         <div className="container flex items-center justify-between">
-          <div className="flex items-center gap-2" data-aos="fade-down">
+          <Link href="/" className="flex items-center gap-2" data-aos="fade-down">
             <Image src="/logo.svg" width={50} height={50} alt="logo" />
             <p className="text-xl font-bold">SkillNestEdu</p>
-          </div>
+          </Link>
 
           <div className="sm:flex items-center gap-4 links hidden">
             {navData.map((item, index) => {
